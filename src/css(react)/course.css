@@ -1,0 +1,15 @@
+.test {
+  width: 800px;
+
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.testDiv {
+  background-color: aqua;
+  margin: 20px;
+  width: 200px;
+  height: 300px;
+}
