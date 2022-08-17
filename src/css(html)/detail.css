@@ -1,0 +1,22 @@
+main {
+  display: inline-flex;
+}
+
+article {
+  width: 66rem;
+  height: 400px;
+  background-color: cyan;
+}
+
+aside {
+  width: 34%;
+  height: 400px;
+  background-color: yellow;
+}
+
+.thumbnails {
+  display: grid;
+  background-color: azure;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}

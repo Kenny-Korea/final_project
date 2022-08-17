@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
-import "../css/footer.css";
+import "../css(react)/footer.css";
 
 const Footer = () => {
   return (
     <>
-      <div>
+      <div className="footer">
         <p>공지사항</p>
         <hr style={{ color: "black" }} />
         <p>

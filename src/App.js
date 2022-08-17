@@ -9,6 +9,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Mainpage from "./components/Mainpage";
+import Course from "./components/Course";
+import Registration from "./components/Registration";
+import Notice from "./components/Notice";
+import Helpdesk from "./components/Helpdesk";
+import Mypage from "./components/Mypage";
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -16,6 +22,13 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Mainpage />} />
+        <Route path="/course" element={<Course />} />
+        <Route path="/registration" element={<Registration />} />
+        <Route path="/notice" element={<Notice />} />
+        <Route path="/helpdesk" element={<Helpdesk />} />
+        <Route path="/mypage" element={<Mypage />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/mypage" element={<Mypage />} />
       </Routes>
       <Footer />
     </>
